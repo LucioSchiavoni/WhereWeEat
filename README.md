@@ -3,9 +3,10 @@
 <div align="center">
   <img src="https://images-breno.s3.sa-east-1.amazonaws.com/logoproducto+(2).png" alt="Where We Eat Logo" width="200">
 </div>
+
 ## Descripción
 
-"Where We Eat" es un sitio web que te ayuda a encontrar restaurantes y lugares para comer en tu área. El sitio web está diseñado para funcionar tanto en dispositivos móviles como en escritorios, lo que te permite acceder a tus opciones de comida favoritas donde sea que estés.
+"Where We Eat" es un sitio web que te ayuda a encontrar restaurantes y lugares para comer en tu área. El sitio web está diseñado para funcionar tanto en dispositivos móviles como en escritorios.
 
 ## Instalación
 
