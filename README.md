@@ -1,8 +1,23 @@
-#WHERE WE EAT 
+# WHERE WE EAT
 
-sitio web del producto 'where we eat' en vista mobile y desktop 
+![Where We Eat Logo](https://images-breno.s3.sa-east-1.amazonaws.com/logoproducto+(2).png)
 
-para iniciar el repositorio una vez descargado debemos poner en consola los siguientes comandos: 
+## Descripción
 
--npm i       //instala dependencias
--npm run dev  //inicializa y muestra la url del sitio por consola para poder ingresar
+"Where We Eat" es un sitio web que te ayuda a encontrar restaurantes y lugares para comer en tu área. El sitio web está diseñado para funcionar tanto en dispositivos móviles como en escritorios, lo que te permite acceder a tus opciones de comida favoritas donde sea que estés.
+
+## Instalación
+
+Sigue estos pasos para iniciar el repositorio una vez que lo hayas descargado:
+
+1. Abre una terminal en la carpeta raíz del proyecto.
+
+2. Ejecuta el siguiente comando para instalar las dependencias necesarias:
+
+   ```bash
+   npm install
+
+3.Ejecuta el siguiente comando para correr el repositorio de manera local, mostrara en la terminal la url del sitio para poder ingresar:
+    
+   ```bash
+   npm run dev 
