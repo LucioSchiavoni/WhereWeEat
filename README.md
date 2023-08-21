@@ -1,8 +1,8 @@
-# React + Vite
+#WHERE WE EAT 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+sitio web del producto 'where we eat' en vista mobile y desktop 
 
-Currently, two official plugins are available:
+para iniciar el repositorio una vez descargado debemos poner en consola los siguientes comandos: 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-npm i       //instala dependencias
+-npm run dev  //inicializa y muestra la url del sitio por consola para poder ingresar
