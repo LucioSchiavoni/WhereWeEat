@@ -6,7 +6,7 @@ const HomeMb = () => {
   return (
 <>
 
- <div className="fixed">
+ <div className="">
       <video autoPlay muted loop playsInline preload='none' >
         <source src="https://vod-progressive.akamaized.net/exp=1691995830~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F242%2F15%2F376213843%2F1569722379.mp4~hmac=d892f51645aac9211e081deae83786bd4b657091b2c7963a7067bca235bf2388/vimeo-prod-skyfire-std-us/01/242/15/376213843/1569722379.mp4" type='video/mp4' />
       </video>
@@ -19,14 +19,14 @@ const HomeMb = () => {
       </div>
       
       <div className="absolute top-56 left-1/2 transform -translate-x-1/2 z-10 w-full text-center ">
-        <input type="text" className="placeholder-italic input-layout rounded-full mt-10 focus:outline-none focus:ring-red-800 w-11/12 px-4 py-2 focus:ring-1" placeholder="Busca un restaurante..." />
+       
         
         <div className="flex items-center justify-center mt-3 gap-5">
-          <Link to='/rolLogin'>
+          <Link to='/login'>
             <button className="rounded-full border hover:bg-gray-300  py-1 shadow-xl shadow-gray-900 w-40 bg-white active:outline-none active:ring-1 active:ring-red-800 font-bold text-black">Iniciar sesion</button>
           </Link>
           
-          <Link to='/rolRegistro'>
+          <Link to='/registro'>
             <button className="font-bold bg-white rounded-full border  py-1 shadow-xl shadow-gray-900  hover:bg-gray-300 w-40 active:outline-none active:ring-1 active:ring-red-800 text-black">Registrarse</button>
           </Link>
         </div>

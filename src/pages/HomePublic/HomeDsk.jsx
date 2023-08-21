@@ -10,13 +10,13 @@ const HomeDsk = () => {
  <img src="https://images-breno.s3.sa-east-1.amazonaws.com/logoproducto+(2).png" alt="logo" className='w-28 m-auto rounded-full' />
 
 
- <input type="text" className="bg-white rounded-full px-6 border border-red-800 text-black m-auto w-3/12 mt-12 py-3 shadow-xl placeholder:italic" placeholder="Busca tu restaurante..."/>
+ 
  <div className="flex justify-center mt-8 gap-10 ">
 
-  <Link to='/rolLogin'>
+  <Link to='/login'>
   <button className=" bg-white w-60 border border-red-800 px-4  py-2 shadow-xl text-black font-bold rounded-full ">Iniciar sesion</button>
   </Link>
-  <Link to='/rolRegistro'> 
+  <Link to='/registro'> 
    <button className="w-60 bg-white border border-red-800 px-4 py-2 shadow-xl text-black font-bold rounded-full ">Registrarse</button>
   </Link>
 

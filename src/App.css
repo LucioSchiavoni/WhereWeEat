@@ -23,4 +23,8 @@
   background-color: rgb(160, 14, 14);
 }
 
-
+.icons-calificacion{
+  background-image: url("../src/assets/calificacion.png");
+  background-repeat: no-repeat;
+  height: 5rem;
+}
