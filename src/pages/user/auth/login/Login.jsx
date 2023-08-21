@@ -31,7 +31,7 @@ const formik = useFormik({
       <Link to='/'>
         <button className="px-4 ml-8 mt-5 text-black font-bold border py-2 rounded-lg shadow-xl">Volver</button>
       </Link>
-      <main className="flex flex-col md:w-3/12 mt-24 m-auto justify-center">
+      <main className="flex flex-col md:w-3/12 mt-24 m-auto justify-center border">
         <form onSubmit={formik.handleSubmit}>
         <div className="flex flex-col mb-4">
         <label htmlFor="email" className="text-black   px-2 font-bold">Email</label>
