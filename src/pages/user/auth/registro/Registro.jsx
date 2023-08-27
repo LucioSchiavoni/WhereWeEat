@@ -31,10 +31,15 @@ const validationSchema = Yup.object({
 
 const RegistroUsuario = () => {
   const [selectedRole, setSelectedRole] = useState('t');
+  const [selectedType, setSelectedType] = useState("Otro")
   const {mensaje, RegistroUsuario} = useContext(todoContext)
 
   const handleRoleChange = (e) => {
     setSelectedRole(e.target.value);
+  };
+
+  const handleTypeChange = (e) => {
+    selectedType(e.target.value);
   };
 
   const formik = useFormik({
@@ -177,7 +182,7 @@ const RegistroUsuario = () => {
             </div>
           )}
            <label htmlFor='motivoAlojo' className='font-bold px-4 mt-2'>
-            Motivo de alojo
+            Motivo de alojamiento
           </label>
           <input
             type='text'
@@ -252,7 +257,7 @@ const RegistroUsuario = () => {
       <option value="Gourmet">Gourmet</option>
       <option value="Tematico">Tematico</option>
       <option value="Para llevar">Para llevar</option>
-      <option value="Otro">Otro</option>
+      <option  value="Otro">Otro</option>
       
     </select>
     {formik.touched.tipoRestaurante && formik.errors.tipoRestaurante && (
@@ -260,11 +265,12 @@ const RegistroUsuario = () => {
         <p className='text-sm px-5  text-gray-400'>{formik.errors.tipoRestaurante}</p>
       </div>
     )}
+  
 
     <label htmlFor='tipoComida' className='font-bold px-4 mt-4'>
       Direccion
     </label>
-    <input type="text" id='direccionRest' placeholder='Direccion...' className='border rounded-full px-6 bg-white border-red-700  p-2  py-2 focus:outline-none placeholder:italic'
+    <input type="text" id='direccionRest' placeholder='Direccion...' className='mb-2 border rounded-full px-6 bg-white border-red-700  p-2  py-2 focus:outline-none placeholder:italic'
     value={formik.values.direccionRest} onChange={formik.handleChange} onBlur={formik.handleBlur}
     />
     {formik.touched.direccionRest && formik.errors.direccionRest && (
@@ -275,7 +281,15 @@ const RegistroUsuario = () => {
   </div>
 )}
 
-        <button type='submit' className='px-4 md:ml-8 md:w-40 md:shadow-xl md:border-gray-400 md:mt-10 py-2 mt-4 rounded-lg bg-white border font-bold '>Registrar</button>
+  <label htmlFor="" className='md:px-6  px-10 '>Acepta terminos y condiciones?</label> 
+     <input type="checkbox"  className='' required />
+   
+      <a className='px-6 underline hover:text-blue-500' href="https://www.impo.com.uy/bases/leyes/18331-2008" target='_blank'>Ver terminos</a>
+    
+<br />
+
+
+        <button type='submit' className='px-6 ml-8 md:ml-8 md:w-40 md:shadow-xl md:border-gray-400 md:mt-8 py-2 mt-4 rounded-lg bg-white border font-bold '>Registrar</button>
     </form>
 </div>
   </div>

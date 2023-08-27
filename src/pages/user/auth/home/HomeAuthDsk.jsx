@@ -10,17 +10,19 @@ const HomeAuthDsk = () => {
   return (
 
    <>
-   <div className='flex flex-col   items-center'>
-       <div className='w-full border shadow-xl '>
-        <NavBar />
-       </div>
+   <div className='flex flex-col bg-white bg-cover  h-min-screen  items-center'>
+<aside className='bg-white '>
+    <NavBar />
+</aside>
+      
+
         
         <div className='mt-10'> 
                 <Map />
         </div>
   
 
-        <div className='mt-48 flex justify-center gap-10 absolute top-80'>
+        <div className='mt-48 flex  justify-center gap-10 absolute top-80'>
         <div className='w-60 h-32 relative rounded hover:scale-125 transition-all duration-300 delay-150'>
             <Link to='/'>
               <img
